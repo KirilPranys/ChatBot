@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\PycharmProjects\\A.I. ChatBot\\model.tflearn"
+all_model_checkpoint_paths: "D:\\PycharmProjects\\A.I. ChatBot\\model.tflearn"

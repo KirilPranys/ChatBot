@@ -1,0 +1,105 @@
+{"intents": [
+  {
+    "tag": "Greetings",
+    "patterns": [
+      "Hello",
+      "Hey",
+      "Hi",
+      "Good day",
+      "Good time of day",
+      "I need help",
+      "What's up?"
+    ],
+    "responses": [
+      "Hello, I'm to your service",
+      "Yo, heed help?",
+      "Hello, how can I help you?",
+      "Hello, how can I assist you?",
+      "Good time of day, how can I assist you?"
+    ]
+  },
+  {
+    "tag": "Goodbye",
+    "patterns": [
+      "Thank you for your assistance",
+      "Goodbye",
+      "I think that is it from my side"
+    ],
+    "responses": [
+      "Hope I was useful",
+      "Have a great evening",
+      "See you soon"
+    ]
+  },
+  {
+    "tag": "Age",
+    "patterns": [
+      "When you was born?",
+      "How old are you",
+      "How old is your creator"
+    ],
+    "responses": [
+      "I was born in April 2021",
+      "I'm only few month old",
+      "This is private information"
+    ]
+  },
+  {
+    "tag": "Name",
+    "patterns": [
+      "What is your name?",
+      "How I can call you",
+      "Who are you?",
+      "What are you"
+    ],
+    "responses": [
+      "I'm your personal assistant - Neural",
+      "You can call me Neural",
+      "I'd prefer you call me Neural",
+      "I'm Neural - Kiril Assistant"
+    ]
+  },
+  {
+    "tag": "promote",
+    "patterns": [
+      "I'd like to promote ",
+      "I would like to put on top",
+      "I would like to advertise my brand",
+      "I have new staff that I would like to promote",
+      "Put my product brand staff on top of recommendation system"
+    ],
+    "responses": [
+      "Insert Id of product",
+      "Will work on it boss, provide ID",
+      "Your items is already promoted, anything else",
+      "Promotion done,invoice e-mail confirmation sent"
+    ]
+  },
+  {
+    "tag": "id",
+    "patterns": [
+      "1",
+      "12",
+      "123",
+      "1234",
+      "12345",
+      "123456"
+    ],
+    "responses": [
+      "Done boss, anything else that I can help you with?"
+    ]
+  },
+  {
+    "tag": "OutOfStock",
+    "patterns": [
+      "Product that im selling is out of stock",
+      "I not selling this item any more",
+      "Delete product from my selling list"
+    ],
+    "responses": [
+      "Please provide ID of item",
+      "Done!",
+      "Working on it... Item have been removed"
+    ]
+  }
+]}
